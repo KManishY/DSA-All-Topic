@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<script>
+    let arr = [1, 2, 3, 4];
+
+    // Prints all subarrays in arr[0..n-1]
+    function subArray(n) {
+
+        // Pick starting point
+        for (let i = 0; i < n; i++) {
+
+            // Pick ending point
+            for (let j = i; j < n; j++) {
+
+                // Print subarray between current
+                // starting and ending points
+                for (let k = i; k <= j; k++)
+                    document.write(arr[k] + " ");
+
+                document.write("</br>");
+            }
+        }
+    }
+
+    // Driver code
+    document.write("All Non-empty Subarrays" + "</br>");
+
+    subArray(arr.length);
+</script>
