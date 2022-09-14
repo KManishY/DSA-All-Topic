@@ -28,3 +28,19 @@
 - We compute the sum of first k elements out of n terms using a linear loop and store the sum in variable window_sum.
 - Then we will graze linearly over the array till it reaches the end and simultaneously keep track of maximum sum.
 - To get the current sum of block of k elements just subtract the first element from the previous block and add the last element of the current block .
+
+
+
+### [Curring in JavaScript](https://github.com/KManishY/DSA-All-Topic/blob/master/Currying.js)
+- Currying simply means evaluating functions with multiple arguments and decomposing them into a sequence of functions with a single argument.
+
+- In other terms, currying is when a function — instead of taking all arguments at one time — takes the first one and returns a new function, which takes the second one and returns a new function, which takes the third one, etc. until all arguments are completed.
+
+*Why should we use currying?*
+
+1. Currying is a checking method to make sure that you get everything you need before you proceed
+2. It helps you to avoid passing the same variable again and again
+
+3. It divides your function into multiple smaller functions that can handle one responsibility. This makes your function pure and less prone to errors and side effects
+4. It is used in functional programming to create a higher-order function
+5. This could be personal preference, but I love that it makes my code readable

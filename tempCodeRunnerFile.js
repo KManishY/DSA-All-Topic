@@ -1,1 +1,1 @@
-	let x = 45;
+console.log("sum(2,3): ", sum(2, 3));
