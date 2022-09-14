@@ -1,3 +1,1 @@
-];
-			// inputArr[i] = inputArr[min];
-			// inputArr[min] = tmp;
+	let x = 45;
