@@ -21,6 +21,15 @@
 
 - After each iteration, one less element needs to be checked, until the entire array or list is sorted. In other words, after the k-th iteration, the first k elements of the array or list are guaranteed to be sorted.
 
+### [MergeSort]()
+
+- Divide the array into sub arrays, each containing only one element(An array with one element is considered sorted)
+
+- Repeatedly merge the sub array to produce a new sorted subarrys until there is only one sub array remaining. That will be the sorted array
+
+
+
+
 ### [Sliding_Window](https://github.com/KManishY/DSA-All-Topic/blob/master/SlidingWindow.js)
 
 *Applying sliding window technique :*
